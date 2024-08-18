@@ -1,5 +1,5 @@
 {
-  "name": "@jaxtheprime/vue3-dropzone",
+  "name": "vue3-dropzone",
   "description": "Vue simple dropzone",
   "private": false,
   "version": "3.3.0",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JaxThePrime/vue3-dropzone"
+    "url": "git+https://github.com/thiagovinte/vue3-dropzone"
   },
   "dependencies": {
     "vue": "^3.4.19"
