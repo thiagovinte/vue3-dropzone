@@ -103,34 +103,7 @@
                   class="img-remove"
                   @click="removeImg(img)"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"
-                  >
-                    <path
-                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"
-                    />
-                  </svg>
-                  <!--svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-x"
-                  >
-                    <path
-                      stroke="none"
-                      d="M0 0h24v24H0z"
-                      fill="none"
-                    />
-                    <path d="M18 6l-12 12" />
-                    <path d="M6 6l12 12" />
-                  </@svg-->
+                  x
                 </button>
                 <h2>{{ img.name }}</h2>
                 <span>{{ (img.size / 1024 / 1024).toFixed(2) }}MB</span>
@@ -366,10 +339,6 @@ watchEffect(() => {
 </script>
 
 <style scoped>
-* {
-  font-family: sans-serif;
-}
-
 .m-0 {
   margin: 0;
 }
@@ -558,7 +527,7 @@ watchEffect(() => {
 
 .img-remove {
   background: rgba(var(--v3-dropzone--error));
-  border-radius: 10px;
+  width: 25px;
   border: none;
   padding: 5px;
   color: #fff;
